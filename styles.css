@@ -16,8 +16,8 @@ body {
 /* Navigation bar */
 nav {
    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     background: #ffffff;
     padding: 15px;
     gap: 20px;
@@ -62,7 +62,7 @@ section {
     max-width: 900px;
     margin: auto;
 }
-
+h2 {   
 /* Cards (for projects/services) */
 .card {
     background: #ffffff;
@@ -76,7 +76,7 @@ section {
 
 .card:hover {
     transform: translateY(-5px);
-}
+}}
 
 /* Footer */
 footer {
