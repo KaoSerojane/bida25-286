@@ -78,7 +78,7 @@ section {
     transform: translateY(-5px);
 }
 .services-container {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
     gap: 20px;
 }
