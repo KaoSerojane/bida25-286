@@ -89,6 +89,7 @@ section {
     height: 200px;
     object-fit: contain;
     display: block;
+    max-width: max-content;
 }
 
 /* Footer */
