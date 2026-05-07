@@ -69,9 +69,11 @@ section {
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid #140303;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     transition: 0.3s;
+    flex: 1;
+    
 }
 
 .card:hover {
