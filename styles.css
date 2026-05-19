@@ -98,8 +98,8 @@ section {
     gap: 20px;
 }
 .logo-container img {
-   width: 80px; /* adjust size */
-  height: auto;
+   width: 120px; /* adjust size */
+  height: 50px;
   position:  absolute;
   top: 10px; /* moves it slightly above the nav bar */ 
   right: 20px;
