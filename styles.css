@@ -100,8 +100,9 @@ section {
 .logo-container img {
    width: 120px; /* adjust size */
   height: auto;
-  position: relative;
-  top: -10px; /* moves it slightly above the nav bar */ 
+  position:  absolute;
+  top: 10px; /* moves it slightly above the nav bar */ 
+  right: 20px;
 }
 
 /* Footer */
