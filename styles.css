@@ -8,7 +8,17 @@
 /* Body styling */
 body {
     font-family: Arial, sans-serif;
-    background: #ffffff;   /* white background */
+    background: linear-gradient(
+        rgba(11, 31, 58, 0.85),
+        rgba(11, 31, 58, 0.85)
+    ),
+    url('C:\Users\kaose\OneDrive\Desktop\bida25-286\background image.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white;
     color: #000000;        /* black text */
     line-height: 1.6;
 }
@@ -16,12 +26,13 @@ body {
 /* Navigation bar */
 nav {
    display: flex;
-    justify-content: right;
-    align-items: right;
-    background: #ffffff;
-    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: #0b1f3a;
+    padding: 20px 10%;
     gap: 20px;
     border-bottom: 1px solid #ddd;
+    position: sticky;
 }
 
 /* Nav links */
@@ -39,6 +50,7 @@ nav a:hover {
 
 button:hover {
     background: #00aacc;
+
 }
 
 /* Header / Hero section */
@@ -66,18 +78,18 @@ section {
 /* Cards (for projects/services) */
 .card {
     background: #ffffff;
-    padding: 20px;
+    padding: 30px;
     margin: 20px 0;
-    border-radius: 10px;
+    border-radius: 12px;
     border: 2px solid #140303;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
     flex: 1;
     
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 .services-container {
     display: flex;
@@ -96,7 +108,7 @@ section {
 /* Footer */
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 40px;
     background: rgba(0, 0, 0, 0.7);
     margin-top: 20px;
 }
