@@ -85,11 +85,12 @@ section {
     gap: 20px;
 }
 .banner-logo {
-    width: 100%;
+    width: 120px;
     height: 200px;
     object-fit: contain;
     display: block;
     max-width: max-content;
+    margin: auto;
 }
 
 /* Footer */
