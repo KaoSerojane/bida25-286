@@ -19,8 +19,9 @@ body {
     background-attachment: fixed;
 
     color: white;
-    color: #000000;        /* black text */
+    color: #f3f0f0;        /* black text */
     line-height: 1.6;
+    text-decoration-color: #f3f0f0;
 }
 
 /* Navigation bar */
@@ -37,13 +38,13 @@ nav {
 
 /* Nav links */
 nav a {
-     color: #000;
+     color: #44d6e9;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-     color: #0077cc;
+     color: #f5f8f8;
 }
 
 
