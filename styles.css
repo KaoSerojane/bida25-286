@@ -97,13 +97,11 @@ section {
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
     gap: 20px;
 }
-.banner-logo {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: block;
-    max-width: 1200px;
-    margin: auto;
+.logo-container img {
+   width: 120px; /* adjust size */
+  height: auto;
+  position: relative;
+  top: -10px; /* moves it slightly above the nav bar */ 
 }
 
 /* Footer */
