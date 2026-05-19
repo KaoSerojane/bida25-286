@@ -99,7 +99,7 @@ section {
 }
 .logo-container img {
    width: 120px; /* adjust size */
-  height: 50px;
+  height: auto;
   position:  absolute;
   top: 10px; /* moves it slightly above the nav bar */ 
   right: 20px;
