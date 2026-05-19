@@ -86,7 +86,7 @@ section {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
     flex: 1;
-    text-decoration-color: #080808;
+    color: #080808;
 }
 
 .card:hover {
@@ -98,7 +98,7 @@ section {
     gap: 20px;
 }
 .logo-container img {
-   width: 70px; /* adjust size */
+   width: 80px; /* adjust size */
   height: auto;
   position:  absolute;
   top: 10px; /* moves it slightly above the nav bar */ 
@@ -142,4 +142,9 @@ list-style-type: disc;
     border-radius: 5px;
     list-style-type: disc;
 
+}
+.title{
+ font-size:30px; 
+ font-weight: bold;
+   
 }
