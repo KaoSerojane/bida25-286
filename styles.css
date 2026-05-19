@@ -114,15 +114,33 @@ footer {
     margin-top: 20px;
 }
 
-ul {
-  list-style-type: none;   /* removes default bullets */
-  padding: 0;
+
+
+.home-list {
+  background: #eef0f1;     /* firm color */
+  color: rgb(12, 12, 12);
+  margin: 5px 0;
+  padding: 15px;
+  border-radius: 5px;
+  list-style-type: disc;
 }
 
-ul li {
-  background: #004080;     /* firm color */
-  color: white;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
+.aboutus-list{
+    background: #f3f0f0;
+    color: #080808;
+margin: 5px 0;
+padding: 15px;
+border-radius: 5px;
+list-style-type: disc;
+
+}
+
+.contact-list{
+    background: #eef0f1;
+    color: #080808;
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 5px;
+    list-style-type: disc;
+
 }
